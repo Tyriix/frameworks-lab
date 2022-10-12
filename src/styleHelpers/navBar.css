@@ -1,0 +1,11 @@
+.navbar-container{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3333%);
+}
+.navbar-logo{
+    grid-column: 1;
+}
+.navbar-routes{
+    grid-column: 3;
+}
